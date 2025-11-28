@@ -38,28 +38,6 @@ const fleet = [ // Full fleet collection - Updated 2025
         image: "/images/escalade.jpg",
         passengers: 6,
         luggage: 5,
-    },
-    {
-        name: "BMW 7 Series",
-        category: "Luxury Sedan",
-        image: "/images/bmw7.jpg",
-        passengers: 3,
-        luggage: 2,
-    },
-    {
-        name: "Mercedes-Benz V-Class",
-        category: "Luxury Van",
-        image: "/images/vclass.jpg",
-        passengers: 7,
-        luggage: 6,
-    },
-    {
-        name: "Bentley Flying Spur",
-        category: "Ultra Luxury Sedan",
-        image: "/images/bentley.jpg",
-        passengers: 3,
-        luggage: 2,
-    },
 ];
 
 export default function FleetCarousel() {
