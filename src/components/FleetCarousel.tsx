@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Users, Briefcase } from "lucide-react";
 
-const fleet = [ // Full fleet collection - Updated 2025
+const fleet = [ // Fleet v2.0 - 5 vehicles only
     {
         name: "Mercedes-Benz S-Class",
         category: "Luxury Sedan",
