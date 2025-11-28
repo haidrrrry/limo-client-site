@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Users, Briefcase } from "lucide-react";
 
-const fleet = [ // Fleet v2.0 - 5 vehicles only
+const fleet = [
     {
         name: "Mercedes-Benz S-Class",
         category: "Luxury Sedan",
@@ -39,9 +39,30 @@ const fleet = [ // Fleet v2.0 - 5 vehicles only
         passengers: 6,
         luggage: 5,
     },
+    {
+        name: "Bentley Flying Spur",
+        category: "Ultra Luxury Sedan",
+        image: "/images/bentley.jpg",
+        passengers: 3,
+        luggage: 2,
+    },
+    {
+        name: "Mercedes-Benz V-Class",
+        category: "Luxury Van",
+        image: "/images/vclass.jpg",
+        passengers: 7,
+        luggage: 6,
+    },
+    {
+        name: "BMW 7 Series",
+        category: "Luxury Sedan",
+        image: "/images/bmw7.jpg",
+        passengers: 3,
+        luggage: 2,
+    },
 ];
 
-export default function FleetCarousel() {
+export default function FleetGrid() {
     return (
         <section id="fleet" className="py-20 bg-black">
             <div className="container mx-auto px-6">
@@ -62,7 +83,7 @@ export default function FleetCarousel() {
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className="group relative overflow-hidden rounded-2xl bg-neutral-900 border border-white/10 hover:border-gold/50 transition-colors"
+                            className="group relative overflow-hidden rounded-2xl glass-panel hover:border-gold/50 transition-colors"
                         >
                             <div className="aspect-[4/3] overflow-hidden">
                                 <img
