@@ -38,6 +38,7 @@ const fleet = [ // Full fleet collection - Updated 2025
         image: "/images/escalade.jpg",
         passengers: 6,
         luggage: 5,
+    },
 ];
 
 export default function FleetCarousel() {
