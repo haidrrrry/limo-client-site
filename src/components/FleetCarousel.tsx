@@ -39,20 +39,7 @@ const fleet = [
         passengers: 6,
         luggage: 5,
     },
-    {
-        name: "Mercedes-Benz V-Class",
-        category: "Luxury Van",
-        image: "https://images.unsplash.com/photo-1761432048884-e11dd56580d0?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        passengers: 7,
-        luggage: 6,
-    },
-    {
-        name: "Bentley Flying Spur",
-        category: "Ultra Luxury Sedan",
-        image: "https://images.unsplash.com/photo-1729513393810-6cc8382e5b76?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        passengers: 3,
-        luggage: 2,
-    },
+  
 ];
 
 export default function FleetCarousel() {
