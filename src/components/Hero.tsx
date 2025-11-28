@@ -57,7 +57,7 @@ export default function Hero() {
                     className="flex flex-col md:flex-row items-center justify-center gap-4"
                 >
                     <a
-                        href="https://wa.me/971501234567"
+                        href="#contact"
                         className="w-full md:w-auto bg-gold hover:bg-gold-500 text-black px-8 py-4 rounded-full font-bold text-lg transition-all transform hover:scale-105 flex items-center justify-center gap-2"
                     >
                         Book Now

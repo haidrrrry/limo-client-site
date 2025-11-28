@@ -45,15 +45,13 @@ export default function Navbar() {
                             {link.name}
                         </Link>
                     ))}
-                    <a
-                        href="https://wa.me/971501234567" // Replace with actual number
-                        target="_blank"
-                        rel="noopener noreferrer"
+                    <Link
+                        href="#contact"
                         className="bg-gold hover:bg-gold-500 text-black px-6 py-2 rounded-full font-medium transition-colors flex items-center gap-2"
                     >
                         <Phone size={18} />
                         Book Now
-                    </a>
+                    </Link>
                 </div>
 
                 {/* Mobile Menu Button */}

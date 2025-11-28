@@ -3,43 +3,63 @@
 import { motion } from "framer-motion";
 import { Users, Briefcase } from "lucide-react";
 
-const fleet = [
+const fleet = [ // Full fleet collection
     {
         name: "Mercedes-Benz S-Class",
         category: "Luxury Sedan",
-        image: "https://plus.unsplash.com/premium_photo-1736151101051-5c76558b2a88?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVyY2VkZXMlMjBzJTIwY2xhc3N8ZW58MHx8MHx8fDA%3D",
+        image: "/images/s-class.jpg",
         passengers: 3,
         luggage: 2,
     },
     {
         name: "Rolls Royce Cullinan",
         category: "Ultra Luxury SUV",
-        image: "https://plus.unsplash.com/premium_photo-1737553374688-09502af61740?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9sbHMlMjByb3ljZSUyMGN1bGxpbmFufGVufDB8fDB8fHww",
+        image: "/images/cullinan.jpg",
         passengers: 4,
         luggage: 4,
     },
     {
         name: "Mercedes-Maybach S680",
         category: "Ultra Luxury Sedan",
-        image: "https://plus.unsplash.com/premium_photo-1667587245482-60a612c40a88?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVyY2VkZXMlMjBtYXliYWNofGVufDB8fDB8fHww",
+        image: "/images/maybach.jpg",
         passengers: 3,
         luggage: 3,
     },
     {
         name: "GMC Yukon Denali",
         category: "Luxury SUV",
-        image: "https://images.unsplash.com/photo-1758222397147-80fae8275f85?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z21jJTIweXVrb258ZW58MHx8MHx8fDA%3D",
+        image: "/images/yukon.jpg",
         passengers: 7,
         luggage: 6,
     },
     {
         name: "Cadillac Escalade",
         category: "Luxury SUV",
-        image: "https://plus.unsplash.com/premium_photo-1665673312770-f80cac75b319?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2FkaWxsYWMlMjBlc2NhbGFkZXxlbnwwfHwwfHx8MA%3D%3D",
+        image: "/images/escalade.jpg",
         passengers: 6,
         luggage: 5,
     },
-  
+    {
+        name: "BMW 7 Series",
+        category: "Luxury Sedan",
+        image: "/images/bmw7.jpg",
+        passengers: 3,
+        luggage: 2,
+    },
+    {
+        name: "Mercedes-Benz V-Class",
+        category: "Luxury Van",
+        image: "/images/vclass.jpg",
+        passengers: 7,
+        luggage: 6,
+    },
+    {
+        name: "Bentley Flying Spur",
+        category: "Ultra Luxury Sedan",
+        image: "/images/bentley.jpg",
+        passengers: 3,
+        luggage: 2,
+    },
 ];
 
 export default function FleetCarousel() {
